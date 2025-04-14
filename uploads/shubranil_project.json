@@ -1,0 +1,39 @@
+{
+  "id": "PRJ009",
+  "name": "Project Shubranil",
+  "description": "IoT-based smart irrigation system for agriculture",
+  "status": "On Track",
+  "start_date": "2025-04-01",
+  "end_date": "2025-12-01",
+  "budget": 600000,
+  "risk_score": 4.8,
+  "risk_delta": -0.2,
+  "schedule_risk": 3.5,
+  "budget_risk": 4.2,
+  "resource_risk": 4.0,
+  "market_risk": 5.5,
+  "technical_risk": 5.1,
+  "risk_factors": [
+    {
+      "name": "Hardware Availability",
+      "description": "Sensor and controller units may be delayed",
+      "category": "schedule_risk",
+      "impact": 6,
+      "likelihood": 5,
+      "mitigation": "Order components early and identify alternate vendors"
+    },
+    {
+      "name": "Connectivity Issues",
+      "description": "Remote fields might have poor network coverage",
+      "category": "technical_risk",
+      "impact": 7,
+      "likelihood": 4,
+      "mitigation": "Use LoRaWAN-based communication for better range"
+    }
+  ],
+  "risk_history": {
+    "2025-04-01": 5.1,
+    "2025-05-01": 4.9,
+    "2025-06-01": 4.8
+  }
+}

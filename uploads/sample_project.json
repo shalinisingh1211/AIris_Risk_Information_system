@@ -1,0 +1,39 @@
+{
+  "id": "PRJ005",
+  "name": "Project Shalini",
+  "description": "IT Consulting",
+  "status": "In Progress",
+  "start_date": "2025-03-01",
+  "end_date": "2025-12-15",
+  "budget": 180500,
+  "risk_score": 1.0,
+  "risk_delta": 0.3,
+  "schedule_risk": 2.0,
+  "budget_risk": 2.0,
+  "resource_risk": 4.8,
+  "market_risk": 7.6,
+  "technical_risk": 6.1,
+  "risk_factors": [
+    {
+      "name": "Component Shortage",
+      "description": "Microcontrollers may be hard to source",
+      "category": "budget_risk",
+      "impact": 8,
+      "likelihood": 7,
+      "mitigation": "Pre-order components from multiple suppliers"
+    },
+    {
+      "name": "Integration Challenge",
+      "description": "Sensor calibration with existing network is tricky",
+      "category": "technical_risk",
+      "impact": 7,
+      "likelihood": 6,
+      "mitigation": "Conduct pilot testing in controlled environment"
+    }
+  ],
+  "risk_history": {
+    "2025-06-01": 4.4,
+    "2025-07-01": 7.6,
+    "2025-08-01": 5.8
+  }
+}

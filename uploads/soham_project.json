@@ -1,0 +1,39 @@
+{
+  "id": "PRJ008",
+  "name": "Project Soham",
+  "description": "Blockchain-based student credential verification system",
+  "status": "In Progress",
+  "start_date": "2025-03-20",
+  "end_date": "2025-10-31",
+  "budget": 450000,
+  "risk_score": 7.2,
+  "risk_delta": 0.6,
+  "schedule_risk": 6.4,
+  "budget_risk": 3.9,
+  "resource_risk": 5.5,
+  "market_risk": 4.0,
+  "technical_risk": 8.2,
+  "risk_factors": [
+    {
+      "name": "Blockchain Complexity",
+      "description": "Implementing smart contracts securely is difficult",
+      "category": "technical_risk",
+      "impact": 9,
+      "likelihood": 8,
+      "mitigation": "Hire blockchain security consultants and use audit tools"
+    },
+    {
+      "name": "Developer Availability",
+      "description": "Shortage of blockchain developers in the team",
+      "category": "resource_risk",
+      "impact": 7,
+      "likelihood": 6,
+      "mitigation": "Upskill internal team and onboard freelance experts"
+    }
+  ],
+  "risk_history": {
+    "2025-03-20": 6.8,
+    "2025-04-20": 7.0,
+    "2025-05-20": 7.2
+  }
+}

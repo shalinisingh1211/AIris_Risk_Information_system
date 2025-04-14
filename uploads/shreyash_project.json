@@ -1,0 +1,39 @@
+{
+  "id": "PRJ007",
+  "name": "Project Shreyash",
+  "description": "AI-based demand forecasting for e-commerce",
+  "status": "Planning",
+  "start_date": "2025-05-01",
+  "end_date": "2025-11-30",
+  "budget": 920000,
+  "risk_score": 6.5,
+  "risk_delta": 0.4,
+  "schedule_risk": 5.2,
+  "budget_risk": 4.9,
+  "resource_risk": 6.1,
+  "market_risk": 7.3,
+  "technical_risk": 5.8,
+  "risk_factors": [
+    {
+      "name": "Model Accuracy",
+      "description": "Forecasting model might underperform due to seasonal changes",
+      "category": "technical_risk",
+      "impact": 7,
+      "likelihood": 6,
+      "mitigation": "Use hybrid models and retrain with seasonal data"
+    },
+    {
+      "name": "Market Volatility",
+      "description": "Sudden market shifts due to external factors",
+      "category": "market_risk",
+      "impact": 8,
+      "likelihood": 7,
+      "mitigation": "Integrate external data feeds and real-time news sentiment"
+    }
+  ],
+  "risk_history": {
+    "2025-05-01": 5.9,
+    "2025-06-01": 6.3,
+    "2025-07-01": 6.5
+  }
+}
