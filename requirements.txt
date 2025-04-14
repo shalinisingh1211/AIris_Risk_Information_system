@@ -1,0 +1,24 @@
+streamlit
+crewai
+langchain
+langchain-community
+chromadb
+huggingface_hub
+python-dotenv
+sqlalchemy
+sentence-transformers
+spacy==3.8.5
+plotly
+pandas
+pypdf
+pdfminer.six
+unstructured
+docx2txt
+streamlit-extras
+git+https://github.com/socvest/streamlit-on-hover-tabs.git
+
+
+ 
+
+# Specific model for spaCy NLP
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
